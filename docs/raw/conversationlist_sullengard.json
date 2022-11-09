@@ -416,16 +416,6 @@
         "id":"sullengard_mayor",
         "replies":[
             {
-                "nextPhraseID":"sullengard_mayor_5",
-                "requires":[
-                    {
-                        "requireType":"factionScore",
-                        "requireID":"gold_contribute",
-                        "value":50000
-                    }
-                ]
-            },
-            {
                 "nextPhraseID":"sullengard_mayor_10",
                 "requires":[
                     {
@@ -468,6 +458,16 @@
                         "requireType":"questLatestProgress",
                         "requireID":"beer_bootlegging",
                         "value":60
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"sullengard_mayor_5",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"gold_contribute",
+                        "value":50000
                     }
                 ]
             },
@@ -838,6 +838,23 @@
             {
                 "text":"I'm hungry. Do you have any food to sell?",
                 "nextPhraseID":"sullengard_godrey_sell"
+            },
+            {
+                "text":"Do you know by chance where this lost travelor is?",
+                "nextPhraseID":"sullengard_godrey_10a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":40
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":50,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -2136,18 +2153,18 @@
         "message":"Are you a farmer?",
         "replies":[
             {
-                "text":"No. But I'm a son of an ordinary farmer in a small settlement called Crossglen.",
+                "text":"No. But I'm a child of an ordinary farmer in a small settlement called Crossglen.",
                 "nextPhraseID":"throthaus_5"
             },
             {
-                "text":"Yes. I'm a son of an ordinary farmer in a small settlement called Crossglen.",
+                "text":"Yes. I'm a child of an ordinary farmer in a small settlement called Crossglen.",
                 "nextPhraseID":"throthaus_5"
             }
         ]
     },
     {
         "id":"throthaus_5",
-        "message":"If you are a son of an ordinary farmer. Then, pick up my pitchfork outside of my house southwest of here.",
+        "message":"If you are the child of an ordinary farmer. Then, pick up my pitchfork outside of my house southwest of here.",
         "replies":[
             {
                 "text":"N",
@@ -2177,11 +2194,11 @@
         "message":"Don't worry about me. I still have one. I bought them from buy-one take-one shop in Nor City. It's a limited shop though.",
         "replies":[
             {
-                "text":"I'll prove it to you that I'm a son of a farmer!",
+                "text":"I'll prove it to you that I'm the child of a farmer!",
                 "nextPhraseID":"X"
             },
             {
-                "text":"You'll see that you are wrong about me. I'm a son of a farmer!",
+                "text":"You'll see that you are wrong about me. I'm the child of a farmer!",
                 "nextPhraseID":"X"
             }
         ]
@@ -2505,7 +2522,7 @@
     },
     {
         "id":"sullengard_ainsley_3",
-        "message":"Thank you so much, kid. Tell my wife Ainsley I can come home on time today.",
+        "message":"Thank you so much, kid. Tell my wife Hadena I can come home on time today.",
         "replies":[
             {
                 "text":"You're welcome.",
@@ -3687,8 +3704,27 @@
         "message":"And where is this person now?",
         "replies":[
             {
-                "text":"I wish I knew. After he told me where to find your stuff, he took off and I was unable to see in what direction he fled.",
-                "nextPhraseID":"sullengard_zaccheria_100"
+                "text":"I wish I knew. After he told me where to find your stuff, he took off and I was unable to see in what direction he fled. Here is your inventory.",
+                "nextPhraseID":"sullengard_zaccheria_100",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"zaccheria_inventory",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"I wish I knew. After he told me where to find your stuff, he took off and I was unable to see in what direction he fled. I just remembered that I didn't bring your inventory with me. I'll be right back.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"zaccheria_inventory",
+                        "value":0,
+                        "negate":false
+                    }
+                ]
             }
         ]
     },
@@ -6486,6 +6522,23 @@
             {
                 "text":"Can you tell me about your 'business agreement' with your beer 'distributors'?",
                 "nextPhraseID":"sullengard_mayor_beer"
+            },
+            {
+                "text":"We want to contribute gold coins for your financial loss.",
+                "nextPhraseID":"sullengard_mayor_4",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"gold_contribute",
+                        "value":50000,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves04",
+                        "value":70
+                    }
+                ]
             }
         ]
     },
@@ -6496,16 +6549,50 @@
             {
                 "text":"How did you know that?",
                 "nextPhraseID":"sullengard_mayor_beer_letter_not_delivered_10"
+            },
+            {
+                "text":"We want to contribute gold coins for your financial loss.",
+                "nextPhraseID":"sullengard_mayor_4",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"gold_contribute",
+                        "value":50000,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves04",
+                        "value":70
+                    }
+                ]
             }
         ]
     },
     {
         "id":"sullengard_mayor_letter_delivered",
-        "message":"Than you for delivering my letter to Kealwea.",
+        "message":"Thank you for delivering my letter to Kealwea.",
         "replies":[
             {
                 "text":"How did you know?",
                 "nextPhraseID":"sullengard_mayor_beer_50"
+            },
+            {
+                "text":"We want to contribute gold coins for your financial loss.",
+                "nextPhraseID":"sullengard_mayor_4",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"gold_contribute",
+                        "value":50000,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves04",
+                        "value":70
+                    }
+                ]
             }
         ]
     },
@@ -6717,5 +6804,16 @@
     {
         "id":"sullengard_town_clerk_10",
         "message":"If you are here about a tax complaint or a land dispute, then please sign in and I well get to you momentarily."
+    },
+    {
+        "id":"sullengard_godrey_10a",
+        "message":"Sure. Look at the table over there. He is my best customer at he moment.",
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"sullengard_inn_traveler_spawn",
+                "mapName":"sullengard_inn"
+            }
+        ]
     }
 ]

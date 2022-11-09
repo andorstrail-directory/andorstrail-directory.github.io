@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="7">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="7">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -190,7 +190,7 @@
  </layer>
  <layer id="2" name="Objects" width="20" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYGBgeCvJAAcg9hsc/LtoctgASP0FQVSx04IQfSC5U0hy/4RR1WEz+xSSXmxmXEdi84mg6k0WQNULc99hXH4QYmCwY4EwZ8pA6M9sEFqSiYEhCGjeLaB9/EKo7r0GFDsDZT9Dci8IxEHNWymDsCaPCUInCaBaDwqnF2K48UsxiDqY+wOB+j8g+f+iGMQtxIJXeOzChWHgBgF7iJX/IYYd3xYjrBcfgKULWLx8w2EPIfxKEhIv2AB6WIPS5Qs0MZj9MPeA0sdtoNhrqDhI/UtJiD0g8BJJDgZuQ+WfoZkNSgcw9chmoqtDN/8VFvPBeoUgefc2kpkgtdeRxNDzNgicRtODTKO777Qgphg++hWaGQCUtJvl
+   eJxjYGBgeCvJAAcg9hsc/LtoctgASP0FQVSx04IQfSC5U0hy/4RR1WEz+xSSXmxmXEdi84mg6k0WQNULc99hXH4QYmCwY4EwZ8pA6M9sEFqSiYEhCGjeLaB9/EKo7r0GFDsDZT9Dci8IxEHNWymDsCaPCUInCaBaDwqnF2K48UsxiDqY+wOB+j8g+f+iGMQtxIJXeOzChWHgBgF7iJX/IYYd3xYjrBcfgKULWLx8w2EPIfxKEhIv2AB6WIPS5Qs0MZj9MPeA0sdtoNhrqDhI/UtJiD0g8BJJDgZuQ+WfoZkNSgcw9chmoqtDN/8VFvPBeoUgefc2kpkgtdeRxNDzNgicRtODTGNzH7oYPvoVmhkAXcWbCQ==
   </data>
  </layer>
  <layer id="3" name="Above" width="20" height="15">
@@ -198,9 +198,9 @@
    eJy7K8kABnegND5wTxjBviuJWw+y+F00NQ/ZcZv/CIscSP9mPG5j5MAtx4RHbg+SmSD3orsTGzgsRlgNNoDL/ZfING84gz1ExAM+cItC/djsvymJai4yH10OlxgIgNLBTSRxfG5FNp+Qe3Dpw2c+TB7dPTex2ItNDTqNDxDrZ2IAALSvMV4=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="20" height="15" visible="0">
+ <layer id="4" name="Walkable" width="20" height="15">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsJGOGASoYQYyoIYZxJoFU4NMY2Pj8iu6GLrdxABC9o8CBKA0XAilF1Ltxxb32NIGMW4gNl0Taz4xeRaf+fTAAPWbbNU=
+   eJzbKMbAsJGOGASoYQYyoIYZxJoFU4NMY2Pj8iu6GLrdxABC9o8CBKA0XAilF1Ltxxb32NIGMW4gNl0Taz4xeRaf+fTI/wDD8WwO
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -222,21 +222,21 @@
     <property name="place" value="west"/>
    </properties>
   </object>
+  <object id="4" name="road5_daw_selector" type="script" x="128" y="448" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup id="6" name="Spawn">
-  <object id="4" name="beetle2" type="spawn" x="64" y="288" width="288" height="160">
+  <object id="5" name="beetle2" type="spawn" x="64" y="288" width="288" height="160">
    <properties>
     <property name="spawngroup" value="beetle2"/>
    </properties>
   </object>
-  <object id="5" name="forestboar3" type="spawn" x="288" y="320" width="288" height="128">
+  <object id="6" name="forestboar3" type="spawn" x="288" y="320" width="288" height="128">
    <properties>
     <property name="spawngroup" value="forestboar3"/>
-   </properties>
-  </object>
-  <object id="6" name="Object" type="spawn" x="0" y="0" width="32" height="32">
-   <properties>
-    <property name="spawngroup" value="Object"/>
    </properties>
   </object>
  </objectgroup>
