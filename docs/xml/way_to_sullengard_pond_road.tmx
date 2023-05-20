@@ -195,7 +195,7 @@
  </layer>
  <layer id="3" name="Objects" width="35" height="20">
   <data encoding="base64" compression="zlib">
-   eJy9VL1OAkEQplFioQmr3uVs9RH0DfABpNISE4g+n4mFPACinaXXUcBxaGOB0jkT5mOHvT3uUOBLJnf7N983P7vdoFJ5JrsMKxvHmVm+3hUtGqcFZ9aBAXEmYqPAaknVuAhFsZXVMSZ7J4tVLiYyXkVPGSzLbVd09E22LlibLtFiDtenU/OjLkmQXdsG5nxmVpcfsW1rOQ+zPTqszb5JzWq52MC9dmtbD22P6vj70l9a5yb0AC3xjXvkq4W+S4nH8u7XKu8Q16Yd2ho97Fkt++TnQPnSPaTtv/e9Jfz6bcPbMg1sbT6iYl+rvj8ur8uPGN33483JcVLL+u6brB73/ebYYQMPbx4/A3eoVyIvAGqcChf/Y+yLf85rsjHeevqsflJOB2vP6yfdV6zN7QONKzX3HS3Oc14eA791OP+0nnpyp+fBOXHqgNxXKd427Ulp/JTDBfOB/b8UnPuLvXKvkaaGWcxRU7QCVadescQ+VHs4H+No5gtoOLWAn7axPKgH9w33Ctaw19UG8P5YOBm6z3h/rOqja75DfnfJOpGdZ65rOnNjFvmgnzU11TyfZUPM6IWR0vNlbK7Giofn+ewR/R+LDvjsid872nNv7F7M85jft0915hfAmvlF
+   eJy9VL1OAkEQplFioQmr3uVs9RH0DfABpNISE4g+n4mFPACipZ3XUcBxaGOB0jkT5mOHvT3uUOBLJnf7N983P7vdoFJ5JrsMKxvHmVm+3hUtGqcFZ9aBAXEmYqPAaknVuAhFsZXVMSZ7J4tVLiYyXkVPGSzLbVd09E22LlibLtFiDtenU/OjLkmQXdsG5nxmVpcfsW1rOQ+zPTqszb5JzWq52MC9dmtbD22P6vj70l9a5yb0AC3xjXvkq4W+S4nH8u7XKu8Q16Yd2ho97Fkt++TnQPnSPaTtv/e9Jfz6bcPbMg1sbT6iYl+rvj8ur8uPGN33483RktSyvvsmq8d9vzl22MDDm8fPwB3qlcgLgBqnwsX/GPvin/OabIy3nj6rn5TTwdrz+kn3FWtz+0DjSs19R4vznJfHwG8dzj+tp57c6XlwTpw6IPdVirdNe1IaP+VwwXxg/y8F5/5ir9xrpKlhFnPUFK1A1alXLLEP1R7Oxzia+QIaTi3gp20sD+rBfcO9gjXsdbUBvD8WTobuM94fq/romu+Q312yTmTnmeuaztyYRT7oZ01NNc9n2RAzemGk9HwZm6ux4uF5PntE/8eiAz574veO9twbuxfzPOb37VOd+QXjs/lN
   </data>
  </layer>
  <layer id="4" name="Above" width="35" height="20">
@@ -264,7 +264,17 @@
     <property name="spawngroup" value="sullengard_venom_snake"/>
    </properties>
   </object>
- </objectgroup>
+  <object name="poisonous_jitterfly_spawn2" type="spawn" x="352" y="512" width="160" height="64">
+   <properties>
+    <property name="spawngroup" value="poisonous_jitterfly"/>
+   </properties>
+  </object>
+  <object name="poisonous_jitterfly_spawn3" type="spawn" x="576" y="480" width="224" height="96">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="poisonous_jitterfly"/>
+   </properties>
+  </object> </objectgroup>
  <objectgroup id="8" name="Keys"/>
  <objectgroup id="9" name="Replace"/>
 </map>

@@ -5090,7 +5090,7 @@
         "message":"He can't be gone without our share from the bootleg brewers.",
         "replies":[
             {
-                "text":"I thought he's here.",
+                "text":"I thought he would come back here.",
                 "nextPhraseID":"umar_guild04_18"
             },
             {
@@ -5145,7 +5145,7 @@
     },
     {
         "id":"umar_guild04_21",
-        "message":"Fortunately, one of my men found one of his drunk men and had a short talk with him before he bleed to death.",
+        "message":"Fortunately, one of my men found one of his drunk men and had a short talk with him before he bled to death.",
         "replies":[
             {
                 "text":"What did he say?",
@@ -5445,7 +5445,7 @@
     },
     {
         "id":"guild04_defy_gone_script_grant",
-        "message":"[Strange. Defy and his men are gone. Maybe they talked with the bootleg brewers here and reported back to Umar?]",
+        "message":"Strange. Defy and his men are gone. Maybe they talked with the bootleg brewers here and reported back to Umar?",
         "rewards":[
             {
                 "rewardType":"questProgress",

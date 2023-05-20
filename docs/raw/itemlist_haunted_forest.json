@@ -50,7 +50,9 @@
         "iconID":"items_armours:4",
         "name":"Shield of the undead",
         "displaytype":"extraordinary",
-        "category":"shld_wd_li",
+        "hasManualPrice":1,
+        "baseMarketCost":11155,
+        "category":"shld_mtl_li",
         "description":"This shield calls for death, and yours will do.",
         "equipEffect":{
             "increaseAttackChance":-5,
@@ -121,9 +123,9 @@
                 },
                 {
                     "condition":"poison_blood",
-                    "magnitude":4,
+                    "magnitude":3,
                     "duration":8,
-                    "chance":"40"
+                    "chance":"30"
                 },
                 {
                     "condition":"increased_defense",
