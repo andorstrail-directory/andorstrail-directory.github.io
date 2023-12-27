@@ -383,13 +383,13 @@
     },
     {
         "id":"torch",
-        "iconID":"items_misc:19",
-        "name":"Torch",
+        "iconID":"items_misc_3:98",
+        "name":"Miner's lamp fuel",
         "displaytype":"ordinary",
         "hasManualPrice":1,
-        "baseMarketCost":348,
+        "baseMarketCost":34,
         "category":"other",
-        "description":"Useful for pitch black tunnels, caves and passages."
+        "description":"Miner's lamp oil with low odor and pollutants. Useful for pitch black tunnels, caves and passages."
     },
     {
         "id":"gland2",
@@ -758,7 +758,7 @@
                 "max":5
             },
             "increaseMaxHP":12,
-            "increaseMaxAP":2,
+            "increaseMaxAP":1,
             "increaseMoveCost":-1,
             "increaseAttackCost":7,
             "increaseAttackChance":14,
