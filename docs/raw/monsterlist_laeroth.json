@@ -1420,13 +1420,13 @@
         "movementAggressionType":"helpOthers",
         "attackDamage":{
             "min":10,
-            "max":22
+            "max":21
         },
         "droplistID":"drakthorn_warrior_dl",
         "attackCost":4,
         "attackChance":97,
         "criticalSkill":2,
-        "criticalMultiplier":1.8,
+        "criticalMultiplier":18.0,
         "blockChance":88,
         "damageResistance":3
     },
@@ -1440,14 +1440,14 @@
         "movementAggressionType":"helpOthers",
         "attackDamage":{
             "min":12,
-            "max":25
+            "max":23
         },
         "droplistID":"drakthorn_warrior_captain_dl",
         "attackCost":4,
-        "attackChance":108,
+        "attackChance":101,
         "criticalSkill":2,
-        "criticalMultiplier":1.8,
-        "blockChance":99,
+        "criticalMultiplier":18.0,
+        "blockChance":91,
         "damageResistance":3
     }
 ]

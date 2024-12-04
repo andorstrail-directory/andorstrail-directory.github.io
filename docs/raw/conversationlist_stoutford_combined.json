@@ -11819,8 +11819,7 @@
         "message":"No, unfortunately not. Maybe try my colleague in Fallhaven?",
         "replies":[
             {
-                "text":"Sigh - well, thanks.",
-                "nextPhraseID":"X"
+                "text":"Sigh - well, thanks."
             }
         ]
     }

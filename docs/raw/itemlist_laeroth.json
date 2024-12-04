@@ -545,8 +545,10 @@
         "equipEffect":{
             "increaseMaxHP":1,
             "increaseAttackChance":7,
+            "increaseCriticalSkill":1,
             "increaseBlockChance":6,
             "increaseDamageResistance":-1,
+            "setCriticalMultiplier":1.5,
             "addedConditions":[
                 {
                     "condition":"clumsiness",
@@ -702,7 +704,7 @@
             "increaseCriticalSkill":2,
             "increaseBlockChance":6,
             "setCriticalMultiplier":1.5,
-            "setNonWeaponDamageModifier":130
+            "setNonWeaponDamageModifier":127
         },
         "hitEffect":{
             "conditionsTarget":[

@@ -12,8 +12,7 @@
         "unique":1,
         "monsterClass":"humanoid",
         "movementAggressionType":"none",
-        "phraseID":"thief_seraphina_selector",
-        "droplistID":"thief_seraphina_dl"
+        "phraseID":"thief_seraphina_selector"
     },
     {
         "id":"aidem_camp_defy",

@@ -108,7 +108,7 @@
     {
         "id":"ratdom_pickaxe",
         "iconID":"items_misc_5:24",
-        "name":"Pickhatchet",
+        "name":"Pickaxe",
         "displaytype":"quest",
         "category":"axe",
         "equipEffect":{

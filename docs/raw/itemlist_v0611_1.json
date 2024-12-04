@@ -470,7 +470,8 @@
         "baseMarketCost":1,
         "category":"hd_cloth",
         "equipEffect":{
-            "increaseCriticalSkill":4
+            "increaseCriticalSkill":4,
+            "increaseBlockChance":-5
         }
     }
 ]

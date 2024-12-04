@@ -927,19 +927,24 @@
         ]
     },
     {
-        "id":"ratdom_skeleton_bone",
+        "id":"ratdom_618_loot1",
         "items":[
             {
                 "itemID":"gold",
-                "chance":"50",
+                "chance":"100",
                 "quantity":{
-                    "min":2,
-                    "max":3
+                    "min":200,
+                    "max":400
                 }
-            },
+            }
+        ]
+    },
+    {
+        "id":"ratdom_618_loot2",
+        "items":[
             {
-                "itemID":"bone",
-                "chance":"5",
+                "itemID":"ratdom_parchment",
+                "chance":"100",
                 "quantity":{
                     "min":1,
                     "max":1
