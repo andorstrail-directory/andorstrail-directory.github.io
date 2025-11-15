@@ -438,7 +438,7 @@
         "message":"Umar you say? I don't know any Umar!",
         "replies":[
             {
-                "text":"(Whispering) You are no one. No one knows you. No one has seen you.",
+                "text":"[Whispering] You are no one. No one knows you. No one has seen you.",
                 "nextPhraseID":"leta_guild_2"
             }
         ]
@@ -1217,6 +1217,23 @@
             {
                 "text":"Can I take a look at the Guild's current supplies?",
                 "nextPhraseID":"S"
+            },
+            {
+                "text":"[Lie] I have deposited the 10000 gold. Here is your key back, as promised.",
+                "nextPhraseID":"troublemaker_wm_return_real_key_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay",
+                        "value":60
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":80,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -1231,6 +1248,23 @@
             {
                 "text":"It's my job. Nice to see you survived those anklebiters ...",
                 "nextPhraseID":"X"
+            },
+            {
+                "text":"Hmm, maybe you can help me?",
+                "nextPhraseID":"fanamor_tt",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":150
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":180,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -1328,7 +1362,7 @@
     },
     {
         "id":"umar_guild02_5a",
-        "message":"But first I have to clarify something. You need to be more careful not to give information to outsiders about the Thieves Guild.",
+        "message":"But first I have to clarify something. You need to be more careful not to give information to outsiders about the Thieves' Guild.",
         "replies":[
             {
                 "text":"Did I?",
@@ -4314,7 +4348,7 @@
     },
     {
         "id":"umar_guild03_30",
-        "message":"Take 4000 gold coins, and some bottles of my favorite mead.\nNow you deserve a good rest, my friend. You have earned the trust of the Thieves Guild.",
+        "message":"Take 4000 gold coins, and some bottles of my favorite mead.\nNow you deserve a good rest, my friend. You have earned the trust of the Thieves' Guild.",
         "replies":[
             {
                 "text":"I'll be back soon.",
@@ -5276,7 +5310,7 @@
     },
     {
         "id":"umar_guild04_22",
-        "message":"He said that they will no longer be a part of the thieves guild. They are now referring to themselves as 'Aidem'.",
+        "message":"He said that they will no longer be a part of the Thieves' Guild. They are now referring to themselves as 'Aidem'.",
         "replies":[
             {
                 "text":"What a weird name. For what reason?",

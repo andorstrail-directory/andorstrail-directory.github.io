@@ -77,6 +77,79 @@
             {
                 "text":"I require healing. Can I see what items you have available?",
                 "nextPhraseID":"jolnor_shop_1"
+            },
+            {
+                "text":"I need some help finding out who is responsible for casting a Shadow spell that causes a person to become noticeable.",
+                "nextPhraseID":"tt_jolnor_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":50
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":70,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"What blessings can you provide?",
+                "nextPhraseID":"dds_jolnor_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"shadows",
+                        "value":100
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"shadows",
+                        "value":110,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"About Fatigue and Life drain ...",
+                "nextPhraseID":"dds_jolnor_100",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"shadows",
+                        "value":110
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"shadows",
+                        "value":120,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"The blessing has worn off too early. Could you give it again?",
+                "nextPhraseID":"dds_talion_130",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"shadows",
+                        "value":110
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"shadows",
+                        "value":160,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"hasActorCondition",
+                        "requireID":"shadowsleep",
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
