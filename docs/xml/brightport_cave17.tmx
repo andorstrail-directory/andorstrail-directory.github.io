@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="35" height="30" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_30" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_30.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_29" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_29.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_14" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_14.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_8" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_8.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_23" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_23.png"/>
+ </tileset>
+ <tileset firstgid="833" name="map_22" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_22.png"/>
+ </tileset>
+ <tileset firstgid="897" name="map_11" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_11.png"/>
+ </tileset>
+ <tileset firstgid="961" name="map_31" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_31.png"/>
+ </tileset>
+ <tileset firstgid="1025" name="map_25" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_25.png"/>
+ </tileset>
+ <tileset firstgid="1089" name="map_13" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_13.png"/>
+ </tileset>
+ <tileset firstgid="1153" name="map_26" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_26.png"/>
+ </tileset>
+ <tileset firstgid="1217" name="map_21" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_21.png"/>
+ </tileset>
+ <tileset firstgid="1281" name="map_24" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_24.png"/>
+ </tileset>
+ <layer name="Base" width="35" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztl40NhCAMhetULOIWuJv35wBsZkgkNg3SVhq843xJQ0yhfH0GiQDtNBnXmwV5bo6V8F4zCY7lYbB/YPILCiy3BVaNZwGxDINuLeWoFfYkssSgPjnYmQPsfkhYJD6V6uRyDnQMSaHAY+0rp8jyLORpj9peLXW0b0serv83s67GwxGdUW59zL8UtbU8o/B7kTho/bPvLJ17zJFj8Znn5Lv221Fi4Tgk0jIczf9so+Vd6tFIPf024fvhKv2CTz3JQx+e99LHrVtatfrvk+rfeVZOUy/r
+  </data>
+ </layer>
+ <layer name="Ground" width="35" height="30">
+  <data encoding="base64" compression="zlib">
+   eJy1lztOAzEQhu3lEkCDIsgZKNKlgxoKuAKEN4EDUdHkSQAlIJaSiiNwE/CwM+yfib27FlmkXw5+zTcP20nPGNPzaOI0dHoGpU5r1phtUyyak6q1pGM1rx+wrTVyelR79cFOiIPGtmy2Xq/tV2ShODyAhswi66zbf+DaF6cmx4bW7Sfz+6/bPKZTm4n6ae2hmjtgW8KAtifgx6PJ/b9LMpYprN+GtSM39pFkXOgHcTTtvO0D5vllZVuaSXzBHKXsi7Bs2nx9y1MP6MeTzXKFcRBf/lh5vrQYF8zVEFhkr3f3ecPt32aWNve3lSgeDRUT5MHck5/C4js7qcnz7BPZaJnFOmkUMBSdOYqfrlviaETsswytMzvmB8dXbZYL1GbNjL1AP/1Jbcv5ovatBoYWa0f1b7DvM7NYQ1Rv+lyIXp12QVWZW6A29D/xfSrx0HceMflq8iSgKjzIYqD/iCXnC++KEAfF4zSgcQnHZzLPYYBB9G2z9hn+H3H+6F6VGn7lXJ45XSh1TX5f+jj6PIYce3aRpUzvSb4f5fTc6VLphudSbL48LAP2bQYsvUgOVMptk/25crr2zNP3hdSD740us6lrMpZZcivvufTLmx/DomsyhoPu1JAv8k4iT9l+WJvdSJZOgS9TFuZK1mjJGqzNGzWm52qOTokvmsXHoW1IXd5XYNcs2hc9L5alKAdF82js1oTPmGYJ+VmFZRlClpGZP1cd9bluFnyHx2bxzok587FC/2bKFn7f9nEtw7ZPVX+nYe7qYtExQckYxWYlyViWmReffd87oPvGrLpq1Gd7UsJD8fkvU5W6kO8zP3L32Uc=
+  </data>
+ </layer>
+ <layer name="Objects" width="35" height="30">
+  <data encoding="base64" compression="zlib">
+   eJytVz1rFFEUvTOTwp+QpJGwBsRWSJnCykQhwU47U6YTFKImZqs0gpDawsLYJIWIKRYC7mQ1IFrYWqTQ0i6FZSS+49zLO3v3vcmKHrjMx/s699yPnRUR2S7lD7aK5jqvV8NVHb8W7I7efykli52ymduGPp0LfE/M2W454zjY3TB+m+YsVsNzXoaxVzTOfiycwy/HyXApaDRVNFeDaYNzb1TD76HJbBHPNwNu6rVNU4PXtadcpjNcdmhPcDIuKSAm0BQ83oa9PiXmGe9e5hk+TgYblM1+KS77YfxzGa9C6z32lceFc7RJre+oLmdF9I+5WD7j3q45Hn3i3dNnjoXXQeh5poixB58ZtX19Zxp4Lm3ou7N2ysjJ16/nsOLqBDgK65eDfSzjM+6P6F0OHEfg14TIO8fBa/Mu2CJZ3X7E2ADf13Q2cnlQDcdnQf1HnvaKxCbS5M7/xiCh+2QReaDfWAxzefivMD0MFrfJMfw9+EtNztPQ9zvk2UXV4oDqFliie+NhGq1QPHNAb6wyeQweNT2/D/t9qGKdzmofARCb5SLW/kD7AZ/t86oz0ZjQmk6CD++BMePBuEd9BLxOE33FdIOWb7wOgcct4nKmvbp286Y0L1Gn4/w27xHPE/Jj2nFC7O5LY0tqD9S4VxtMy76MYqtIvBwDxmmW1i+rAXP6Hhogth2qUZ+XjDn33vrw9RaeFr+cftB+L9jjxFrOSwav8fZEYuw4L21sz81lnhh7mPEDe7KfnB9+TaG+btIZnJcY33TreC5wWA3v5WsMSOUMr/HoymhePsqsxVyL3aHbz9fY5TDvSiaHGc9Js65eLS8R091g647TWrANet6lce+L4UU1Wr/eT4PFAtqfJnLNOK0rj2N9bz7v0hjXmEjsK9bTuJ5tT+O1Rvdd2oNr5WnQ/NlEzMOTBF/2wXLacn1Vmn7HqIN9k+YbhX0xnU0br2dKKw9fo5bvmxLrfb4Y7b+mE34j7NsJOehzgfPc7+H5+RxO7cFAX/xaxu+4WmK/gx9daeJqeeDRpo+vbf5W9M+w7TLGzfys9eo1AXKcDD/pnuvJn9H2/1TcHMRqQ3mZX5avwKpbl8pdrGM+Hqn+wu9+0H0tkZeH/x1jWI/iOmEduIb57N/MyORe
+  </data>
+ </layer>
+ <layer name="Above" width="35" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzNlr1OwzAQxx2nSN0RT0BnXgCJgYWq4hEA8fE2SDwDEwtLJcSQqY0ELUUMvIIHQGzAwIo4K7FqHDu+s52Kv/RXvmzfz87lHMZoKurj1pq7zbSlvwCfEmNi9ZAz9s4Z+wAf8L/Pct5s34d7Z4GxdjXb9Apj34E/wYdGbOHoc4yI+22Zh03jjLEb8AT8Bn3uwV/gI17dk5Jr0neMd4ILg+K5reM98eW1PFdHKReH0pXnOXZddJYXB4tPPlYqk86GZaHwUjli9Qzxfno4hrKD+AvCfCfGdZdr1ZbDJocpW/1KwbFP6KdqPzb/UzLbOCjvSjB3rvnWXsnc1zAce/AdLPImi0+KaVQ7VEW2PL8ElkeDRb7LIbTZzNi/0SBrrmmRiI+ak4MO10VE9o/9vmZ55RQssf3neWUpbH3RNdPyWrKsgzcimUI111hC5hKqmDmX9XFIzPdzqCkXPX87qlRuX6cfmixVf8sVxnTtSXpddO0Lq8j9tj3PVpcwTNuQRzuJc0kY113lq0+lhSVEMi9i/gdMlQnHatMvMP9S+Q==
+  </data>
+ </layer>
+ <layer name="Top" width="35" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAPHhCQpxdgZsJ0ixczYX3nmajvFpA7ONDM9SbCLbQAD4hUFw507z8WCD3QbiEHnCDR3ejxM9zBkkHk35BB4JZ9jBCaXLcwU8kPR5lIT7vo7qBmWqYkPKidpzYxovKJDafBlreVGQmrIQd40cbYUTAKRsEoGAWjgMEK2CewZRloV4wMMJLrcwDsdw89
+  </data>
+ </layer>
+ <layer name="Walkable" width="35" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztklEKgDAMQ4d/u/+F/RKkrFka2iHYQBCda9+yzmuM2W632+1f+9FXODJZlFpWq1peXdQvg4WRx8vwZ7N4XOidzZLppbJH5nK11z5VFtQvMmOReiyHOkc2n10NhoOtlbHf++/9PYNjd260bllULiTEwSo7m4gq7qnq3BGWyvxZlkhGFQyr3tWzqWTD8JzKpyKTG54ZIpg=
+  </data>
+ </layer>
+ <objectgroup name="Mapevents" visible="0">
+  <object name="lizard3" type="mapchange" x="800" y="640" width="64" height="32">
+   <properties>
+    <property name="map" value="brightport_lizard3"/>
+    <property name="place" value="entrance"/>
+   </properties>
+  </object>
+  <object name="lizard1" type="mapchange" x="576" y="448" width="64" height="32">
+   <properties>
+    <property name="map" value="brightport_lizard1"/>
+    <property name="place" value="entrance"/>
+   </properties>
+  </object>
+  <object name="lizard2" type="mapchange" x="288" y="608" width="64" height="32">
+   <properties>
+    <property name="map" value="brightport_lizard2"/>
+    <property name="place" value="entrance"/>
+   </properties>
+  </object>
+  <object name="lizard4" type="mapchange" x="192" y="416" width="32" height="32">
+   <properties>
+    <property name="map" value="brightport_lizardtemple"/>
+    <property name="place" value="entrance"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" x="0" y="416" width="32" height="192">
+   <properties>
+    <property name="map" value="brightport_cave18"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="entrance" type="mapchange" x="416" y="928" width="256" height="32">
+   <properties>
+    <property name="map" value="brightportwild17"/>
+    <property name="place" value="cave"/>
+   </properties>
+  </object>
+  <object name="brightport_lizardfightcheck" type="script" x="288" y="768" width="416" height="64">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="brightport_slaincheck2" type="script" x="160" y="448" width="768" height="384">
+   <properties>
+    <property name="when" value="always"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn" visible="0">
+  <properties>
+   <property name="active" value="false"/>
+  </properties>
+  <object name="lizard1" type="spawn" x="576" y="672" width="64" height="64">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="respawnspeed" value="0"/>
+    <property name="spawngroup" value="brightport_lizard00"/>
+   </properties>
+  </object>
+  <object name="lizard2" type="spawn" x="288" y="704" width="128" height="64">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="respawnspeed" value="0"/>
+    <property name="spawngroup" value="brightport_lizard00"/>
+   </properties>
+  </object>
+  <object name="lizard3" type="spawn" x="704" y="736" width="96" height="64">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="respawnspeed" value="0"/>
+    <property name="spawngroup" value="brightport_lizard00"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+ <objectgroup name="Replace"/>
+</map>

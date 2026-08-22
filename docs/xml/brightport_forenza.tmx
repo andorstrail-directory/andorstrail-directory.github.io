@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="18" height="16" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_27" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_27.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_25" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_25.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_14" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_14.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_32" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_32.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_19" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_19.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_16" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_16.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_10" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_10.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_29" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_29.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_13" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_13.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_28" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_28.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_15" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_15.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_31" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_31.png"/>
+ </tileset>
+ <tileset firstgid="833" name="map_8" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_8.png"/>
+ </tileset>
+ <tileset firstgid="897" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <layer name="Ground" width="18" height="16">
+  <data encoding="base64" compression="zlib">
+   eJzTYWBg0MGBr5CAQeodsWByzHHCgskxh58REw9nc0jF2MzBFoe4MD5zsMUhLozPHGSsy4DA+MKAkDmEMCwtU2qOI9R/lJoDMqOfBAzSg0uOlLRGDwwApuxz/Q==
+  </data>
+ </layer>
+ <layer name="Objects" width="18" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAFBgzkg1xGBob3TAwM26D0BkbyzAHp+wDUvx1K55JpznM0fW1M5JnTh2bOTTLdw4tmvyCZ5uQx4ecTG4f5TNj5QkB3nQWylYFsVSBWB2JRoJgEEEtD5c4yIeyahOYPGF8YSJ8DqlMBss2BWAOIxYBiklB5kNw5JDdwYYmfSmYGBhGg+jlo4uJAMSmouCEQmyD5m5vMeDYCYlMkPg/UnAVI/ssCsqcyQDCxYD7QHHugPwSAeh2A9AUgfxoDAk9hwPQfDNiQYM9QBAATjx7k
+  </data>
+ </layer>
+ <layer name="Above" width="18" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBi84C2VzetjpLKBFILnA+yeJUD7u6FumMYI4ZMLeqB6pyOZMZ+JfPOGOuhH87swlC8DDJ859HfOoAUAwEoH9w==
+  </data>
+ </layer>
+ <layer name="Top" width="18" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAeWMA8as6oOaPm0Mqc4QgAUSgHpQ==
+  </data>
+ </layer>
+ <layer name="Walkable" width="18" height="16" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzrZGBg6BzGGBlQwwxKzKGWewajOZ1UNAObm3CJE2MGsQCfn7CpIcc8Ut08UPFALwwALjJ7oA==
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="entrance" type="mapchange" x="352" y="416" width="32" height="32">
+   <properties>
+    <property name="map" value="brightport3"/>
+    <property name="place" value="forenza"/>
+   </properties>
+  </object>
+  <object name="bed" type="rest" x="32" y="320" width="32" height="32"/>
+  <object name="brightport_forenza" type="container" x="32" y="128" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="brightportforenza1" type="spawn" x="320" y="320" width="160" height="64">
+   <properties>
+    <property name="spawngroup" value="brightportforenza1"/>
+   </properties>
+  </object>
+  <object name="brightportforenza" type="spawn" x="96" y="352" width="64" height="32">
+   <properties>
+    <property name="spawngroup" value="brightportforenza"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys">
+  <object name="bed" type="key" x="32" y="320" width="32" height="32">
+   <properties>
+    <property name="phrase" value="brightport_null"/>
+    <property name="requireId" value="brightport_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="183"/>
+   </properties>
+  </object>
+  <object name="vault" type="key" x="96" y="256" width="32" height="32">
+   <properties>
+    <property name="phrase" value="brightport_vault"/>
+    <property name="requireId" value="brightport_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="182"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Replace"/>
+</map>

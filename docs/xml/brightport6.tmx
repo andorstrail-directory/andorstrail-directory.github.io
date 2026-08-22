@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="30" height="14" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_13" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_13.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_26" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_26.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_27" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_27.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_25" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_25.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_11" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_11.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_10" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_10.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_8" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_8.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_18" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_18.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="833" name="map_21" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_21.png"/>
+ </tileset>
+ <tileset firstgid="897" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <tileset firstgid="961" name="map_23" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_23.png"/>
+ </tileset>
+ <tileset firstgid="1025" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <layer name="Base" width="30" height="14">
+  <data encoding="base64" compression="zlib">
+   eJxjYBhagBGK6Q0coRjmBnoARiR7Yf5WoZO9AxHGo2AUjIKRDQAd3gEx
+  </data>
+ </layer>
+ <layer name="Ground" width="30" height="14">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYKQR9gfiECAOQ8IBUJpcM+WhGJ+aYCAOR7IrDOoWcu11BGJrIMOWEcJXwaM2FM3fwVB3kGPvfyC2ATLsgLgaiFVJ9Lc/CXb1AHEflC0FxIpQMQdGhDg+HIpkbzAJ9vYCcT+amD2QaATiZkbS0xkl6RXkliZGTPcQE96U2EsODh0gexlH7R21l4b2AgB9vRk2
+  </data>
+ </layer>
+ <layer name="Objects" width="30" height="14">
+  <data encoding="base64" compression="zlib">
+   eJyVVDtLA0EQnt3rAoEUamlhIUGwVBFMbK0FPZDAkR+Szncjqe73+AMkICikstbqLAxc5ww3w83O7Rr8YJjHzs1zb3sA4JF6hlcRW4oTjpCOWdZ2wRipYHllfFJxS9/K4zX5d5E2ssbPolTFfDiAK9+NUSNdu7Bv+S5W6wnSCJpYwLZZJLdAx3jDPO9IU9ZvUL5zYS2x3qiepyw+k4UL8+ladD9St8QUXXDPcWy8Lx/af5AuUL7M2lyF8tczku+GyPcgfj/sjDQKc1YlfGecb9+1uft8NmEu9qULa6a5Wth6JZbNvRJ/jnnI+kGkl7461zYB3QnZ8zPXNPdhTr3bbd/QjhnGJ+rnvtnnWRbquW914gNTh86l/xW5twKac82y/CsV/I8TahVbZi6I7XlodkeQXqTX3PSeq3PCXAWdQIjY+zJS+tJ17+M6Tvlo76Xv9nQayfltalmoOy22W7Q9ID2aerQd+NuUb6rflM9fb6KWXzDPq+vGHnCMTTzbct336xeHOlYr
+  </data>
+ </layer>
+ <layer name="Above" width="30" height="14">
+  <data encoding="base64" compression="zlib">
+   eJy9VMsKwjAQbGxOHhWPOVj8BP1K/1ZFr26gC+Mys7QoDoRMk83so8nWcRg2NjrqzOPcgGd2HTubTzOPaLBeC9dCO/SP38iPNiayr4A2T4vhVT73r4X7wdxiPFvg96DHfDeI2zUxD4TSy/wgYo36ub3xw6jrldUx7ilb96fyUusMKt4l//sbtJW1+TVUvuzeOljMa+DaXnMVyz/AesMketFaxJ6W+cT1/n787mbnGeKbVT6y/Jb0ROQ38/koXLtrnG3vUnj/UmdZD8X37Fz15kzvDclxG74=
+  </data>
+ </layer>
+ <layer name="Walkable" width="30" height="14" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzjZGFg4BzFQwaDwECYDwPobErNJMVecu1GBoTE8bkHn93oYUMJINZOatmHz25CcYqsj1r24vM3Newi1S2E0i25ZhNrHyX5F5/5tLCfVPehYwAaYg7I
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="west" type="mapchange" x="0" y="224" width="32" height="128">
+   <properties>
+    <property name="map" value="brightport4"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="grave" type="mapchange" x="576" y="128" width="32" height="32">
+   <properties>
+    <property name="map" value="brightport_grave"/>
+    <property name="place" value="entrance"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" x="704" y="416" width="32" height="32">
+   <properties>
+    <property name="map" value="brightport5"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="epithet1" type="key" x="480" y="320" width="32" height="32">
+   <properties>
+    <property name="phrase" value="brightport_epithet1"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object name="epithet2" type="key" x="416" y="320" width="32" height="32">
+   <properties>
+    <property name="phrase" value="brightport_epithet2"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object name="epithet3" type="key" x="352" y="320" width="32" height="32">
+   <properties>
+    <property name="phrase" value="brightport_epithet3"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object name="epithet4" type="key" x="288" y="320" width="32" height="32">
+   <properties>
+    <property name="phrase" value="brightport_epithet4"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object name="epithet5" type="key" x="224" y="320" width="32" height="32">
+   <properties>
+    <property name="phrase" value="brightport_epithet5"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object name="epithet6" type="key" x="512" y="256" width="32" height="32">
+   <properties>
+    <property name="phrase" value="brightport_epithet6"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object name="epithet7" type="key" x="448" y="256" width="32" height="32">
+   <properties>
+    <property name="phrase" value="brightport_epithet7"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object name="epithet8" type="key" x="384" y="256" width="32" height="32">
+   <properties>
+    <property name="phrase" value="brightport_epithet8"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object name="epithet9" type="key" x="320" y="256" width="32" height="32">
+   <properties>
+    <property name="phrase" value="brightport_epithet9"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object name="epithet10" type="key" x="256" y="256" width="32" height="32">
+   <properties>
+    <property name="phrase" value="brightport_epithet10"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object name="epithet11" type="key" x="192" y="256" width="32" height="32">
+   <properties>
+    <property name="phrase" value="brightport_epithet11"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object name="epithet12" type="key" x="384" y="128" width="32" height="32">
+   <properties>
+    <property name="phrase" value="brightport_epithet12"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object name="brightport_guardnorth2" type="script" x="736" y="384" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn" visible="0"/>
+ <objectgroup name="Keys"/>
+ <objectgroup name="Replace"/>
+</map>

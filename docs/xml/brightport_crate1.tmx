@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="3" height="4" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_32" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_32.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <layer name="Ground" width="3" height="4">
+  <data encoding="base64" compression="zlib">
+   eJzjZGBg4ETC3FCaC4h5oDQ3lA2iAQwEAHs=
+  </data>
+ </layer>
+ <layer name="Objects" width="3" height="4">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAANwbCAAAKCABH
+  </data>
+ </layer>
+ <layer name="Above" width="3" height="4">
+  <data encoding="base64" compression="zlib">
+   eJzjZIAATih9gwETHABiVkYGhkAgBgAovgID
+  </data>
+ </layer>
+ <layer name="Top" width="3" height="4">
+  <data encoding="base64" compression="zlib">
+   eJzbx8DAwMHIwHAbSO8HYkYgW5IRwgYBEBsZAAB5DANX
+  </data>
+ </layer>
+ <layer name="Walkable" width="3" height="4">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBg8GSAAE80zICFDQA4FAJJ
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="crate1" type="mapchange" x="32" y="64" width="32" height="32"/>
+  <object name="brightport_crate_failure_script" type="script" x="32" y="64" width="32" height="64">
+   <properties>
+    <property name="when" value="round"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="brightportguardcrate2" type="spawn" x="64" y="0" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="brightportguardcrate2"/>
+   </properties>
+  </object>
+  <object name="brightportguardcrate1" type="spawn" x="0" y="0" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="brightportguardcrate1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+ <objectgroup name="Replace"/>
+</map>

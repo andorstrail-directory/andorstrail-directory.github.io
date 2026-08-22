@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="16" height="18" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_29" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_29.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_35" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_35.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_30" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_30.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_11" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_11.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_8" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_8.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_22" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_22.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_10" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_10.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_13" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_13.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="833" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <layer name="Base" width="16" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AU0BIwDrQDBjEAAAWcAAI=
+  </data>
+ </layer>
+ <layer name="Ground" width="16" height="18">
+  <data encoding="base64" compression="zlib">
+   eJztlD0OgCAMhdsTKyS6AKP4x8W8lZB0qLUxAScThy8N5fV14WEAYCBCpiMM60ss02FmomoUH42RacpcZB4odqOCJU1gPenxRMo48sAGj0TVKXezOK+ZRbA9eMcK7c832F/Ol3dasuLhmiPf4MNzHCpme7jn+Kjcr/0lJ6SGKE4=
+  </data>
+ </layer>
+ <layer name="Objects" width="16" height="18">
+  <data encoding="base64" compression="zlib">
+   eJyFUkEKwjAQ3PRYKfQZomev/kFQ+g09CJ7sA6S+wI8IPXksfsSbR49mMUvGMbEDQ0I6mZkNFYl4OpGV56SQUdwCW9gj8Jx5CJq5z7KoGu4g9gky2rCW8vH7l4351gE9GJXn1UXvTZHXt0GvGtMrzkTFushnMnL9y7D27rsDa7XTEvys2xXupWCzGqaeM9I0Lr6h+rEmlVGPfOeeij6h0zOba0Hn6HuBOTgPR7S8WvKoqNdSvt+zAm3neZL4JkPQD0C7y54dnSmOdFfRuF8PXvWf2CZmeYC/dcx5vIrff8uAPVN77bhL5N8932gfPpA=
+  </data>
+ </layer>
+ <layer name="Above" width="16" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAPnGCE0EzMxOt5wohfnoWZNPNIsY9UswmpP0zAL4QAKPxYiHRPKZo6csNJGKhHFE2fLDNhNeQCascnNoBsPrH2oasjpA9fmMD0YjMDJlYHZJ9iQNAwAOLLMmOagc3MOhxug8nD3IjPDHTwgwnT/9jY6GkE3X5sdhFjPwgAAC1oC34=
+  </data>
+ </layer>
+ <layer name="Walkable" width="16" height="18" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJw7ycjAcHIIYxCgVD8lZiADctyNDmihH10tNrcTA3D5mZAacgExZlFqFznhgivtEVJParwOdN6iBwYAR9CYSw==
+  </data>
+ </layer>
+ <objectgroup name="Mapevents" visible="0">
+  <object name="east" type="mapchange" x="480" y="224" width="32" height="160">
+   <properties>
+    <property name="map" value="brightportwild17"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" x="0" y="96" width="32" height="160">
+   <properties>
+    <property name="map" value="brightportwild15"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="beetle" type="spawn" x="64" y="128" width="384" height="352">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="hardshell_beetle"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+ <objectgroup name="Replace"/>
+</map>

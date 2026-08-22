@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="17" height="14" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_25" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_25.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_24" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_24.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_26" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_26.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_11" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_11.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_14" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_14.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_10" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_10.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="833" name="map_13" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_13.png"/>
+ </tileset>
+ <tileset firstgid="897" name="map_12" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_12.png"/>
+ </tileset>
+ <layer name="Base" width="17" height="14">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAcMEIxpWaojJox6MygBmBEw+SagY09UgEAPtoA5w==
+  </data>
+ </layer>
+ <layer name="Ground" width="17" height="14">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYKQQy0MxPjUcBMTrgVgShzwnAf2cULYkDjNA+A8ejKwOnxl/8WBizfgHxI1YcDsJZvwH4iYsuIMEM+iJ1wBxFxTrMJJnxk8g/gXEvxkgAuS65TcUU+Kf31C3UGoGzB0TGPCnT2zpFAA0vCzD
+  </data>
+ </layer>
+ <layer name="Objects" width="17" height="14">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBgsAFiWyCOYmJg4ALSQIokOo6RgaERiJWB7GwgzYBkZi8QT4IIgdXDxCcA8WQkcSkgfgbUqwIVC2FiwABMSObB7IeB2VAa2QwGJHVszKhmgfgezAhzkc1DNkMASptB6ZVY3AUDlUjuRHcHMpgLpRcD8VIk/kOgxkfQOMDmF1jYFQPxbqg7lgDxeiCeB8STmRFqQLQEEK8AuYcJEjcggC1cQaAAzZ8w/4DipR6IfwPdooqkDlmPKRbzkhkh6QKEtaDmqGK3GgVUYhGbA3QzGyOCz8GIGl8rgXgVEWbPQGJrAs2YjxYWyH6HhSMICCCJoZuBrhYEkP2ALAdzM7oZj3DEiQdSGgWBjUC8FcoGAGdDKc8=
+  </data>
+ </layer>
+ <layer name="Above" width="17" height="14">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAED5kYGB4B8SYgewsQHwGyDzEhxDcCxbYiieMCMPkjUDXo5sHE9+PRj+weXPIggM8dbnjkQMCJCHPcCZjhzITpJmSAyw/IYAGSfwmBeTjEOZgJ6yUFXCXCLaQC5HRDTLiAAD41NkBsi8THZiZIzJYBE+CzH1kO5mZ0tbC8gG4OPnPR3UoofcIALJ1uBmIAEIIwnw==
+  </data>
+ </layer>
+ <layer name="Walkable" width="17" height="14" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBg4GSmDGMD1DCDVHNo6Q5quIUUM4jVi8/MwQKo4RZkM3D5n1QzCKlFV4MuRoz9uOIJm19IwQC2SwWJ
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="east" type="mapchange" x="512" y="224" width="32" height="128">
+   <properties>
+    <property name="map" value="brightport6"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="south" type="mapchange" x="32" y="416" width="64" height="32">
+   <properties>
+    <property name="map" value="brightport3"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="benbyr" type="mapchange" x="320" y="192" width="32" height="32">
+   <properties>
+    <property name="map" value="brightport_benbyr"/>
+    <property name="place" value="entrance"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" x="0" y="0" width="32" height="160">
+   <properties>
+    <property name="map" value="waytobrightport23"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="brightport_arrest" type="script" x="32" y="224" width="256" height="160">
+   <properties>
+    <property name="when" value="always"/>
+   </properties>
+  </object>
+  <object name="brightport_guardnorth2" type="script" x="416" y="224" width="32" height="128">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="brightportguardnorth" type="spawn" x="96" y="128" width="64" height="128">
+   <properties>
+    <property name="spawngroup" value="brightportnorthguard"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys" visible="0"/>
+ <objectgroup name="Replace"/>
+</map>

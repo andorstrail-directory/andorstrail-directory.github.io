@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="20" height="11" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_32" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_32.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_29" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_29.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_13" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_13.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_19" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_19.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_12" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_12.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_14" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_14.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_16" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_16.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_8" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_8.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <layer name="Ground" width="20" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxTY2BgUKMyVgdiLSDWoZANM08DiLWBWJdCNsy8CCjuAeI+JD4uMVzi6Ob1AnE/mhpsYrjE0c2jFA8F89SpGB860PimVnyA0owmlTEAEGQ/Kw==
+  </data>
+ </layer>
+ <layer name="Objects" width="20" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAOMhlxSOAAx3CIvcNiDja1IHAUhzg7Dregq8elbi8TqhwLkD0FiS/FBBFDBoVIYiB5GGBiRJgBA9EkhhU+gB42uMIKF4C5ZSYV3YQOEgiYjS083hMwj5phiM196PGLLFbIhCoOcgs29dQAAFGSDeo=
+  </data>
+ </layer>
+ <layer name="Above" width="20" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYKA+4GQkTswAjxlsSOoPo8lJMjEwsGMxD1keH0iA6tXDIodNDJ84snn6WOSwieETRzaPWoDa5lE7ftmxxAc+MXRxdDkWKscHNQEARcIFbw==
+  </data>
+ </layer>
+ <layer name="Walkable" width="20" height="11" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJw7ycDAcHIUgzEDEWIMRIgxEBAjVS25YKiZR63wQ483BiLFcMUvNTEA/edm3A==
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="entrance" type="mapchange" x="576" y="160" width="32" height="32">
+   <properties>
+    <property name="map" value="brightport6"/>
+    <property name="place" value="grave"/>
+   </properties>
+  </object>
+  <object name="brightport_grave_event" type="script" x="128" y="96" width="128" height="192">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="tiny_rat" type="spawn" x="32" y="160" width="544" height="96">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="brute_origin1"/>
+   </properties>
+  </object>
+  <object name="brightport_ghost" type="spawn" x="160" y="160" width="64" height="96">
+   <properties>
+    <property name="respawnspeed" value="0"/>
+    <property name="spawngroup" value="brightport_ghost"/>
+   </properties>
+  </object>
+  <object name="brightport_studentghost" type="spawn" x="64" y="224" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="brightport_studentghost"/>
+   </properties>
+  </object>
+  <object name="brightport_studentghost1" type="spawn" x="96" y="160" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="brightport_studentghost1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys">
+  <object name="Object" type="key" x="512" y="96" width="32" height="32">
+   <properties>
+    <property name="phrase" value="brightport_grave"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Replace"/>
+</map>

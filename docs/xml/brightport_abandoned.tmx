@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="16" height="12" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_25" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_25.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_8" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_8.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_19" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_19.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_14" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_14.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_20" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_20.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_13" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_13.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_18" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_18.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_27" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_27.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="833" name="map_21" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_21.png"/>
+ </tileset>
+ <tileset firstgid="897" name="map_12" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_12.png"/>
+ </tileset>
+ <tileset firstgid="961" name="map_16" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_16.png"/>
+ </tileset>
+ <tileset firstgid="1025" name="map_22" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_22.png"/>
+ </tileset>
+ <layer name="Ground" width="16" height="12">
+  <data encoding="base64" compression="zlib">
+   eJwTYGBgEKAQO5KJYfqdyMQw/efIxKP6KdfvSIF+R2g8kqsfpHctHnyOgDwIAwD5629C
+  </data>
+ </layer>
+ <layer name="Objects" width="16" height="12">
+  <data encoding="base64" compression="zlib">
+   eJyNUUsOAUEQLdUTB8COROIOBJGYY7Bgx3ZcZWIjsxMrSyydxt8lJN7o7nTpGTIvqbz6dr/qJnKYlSgDP1embNxi9IGbJjcR/gW1G+wBa5t82utfFcG2SIbgKWypiLrgK+busCfrWPamUOABarGpdcSZdVjDBsF3nLDbZS3EzJXmULm5EWd37ynnR6if2HER9MX8AjNndpyH2IvHrHdP/2dP+f8icfihw75jum9R/fa9joZ3Ju/r9zWHYucVf56WXjhjA3+o3N9I32qsoLkKqwU6l3g6/X3/Qfa+AZt/I2s=
+  </data>
+ </layer>
+ <layer name="Above" width="16" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAcLGBkYAhhIl79SzS1IP2hSGLMBPS/wqIfBsqBbA4C+l/j0U8OGNVPH/2ZhBIGGQAAf/kKqw==
+  </data>
+ </layer>
+ <layer name="Top" width="16" height="12">
+  <data encoding="base64" compression="zlib">
+   eJwTYKAOiGKiTH80hfqHE1AeDQu6AQBHbADv
+  </data>
+ </layer>
+ <layer name="Walkable" width="16" height="12" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzjZGBg4BzkmIFINQwE2Mh8XGLoAJ8abG4kBeAymxhzcPkfn3pi7ScWUNP/uOINl13oYuSmGwASugNz
+  </data>
+ </layer>
+ <objectgroup name="Mapevents" visible="0">
+  <object name="entrance" type="mapchange" x="224" y="352" width="32" height="32">
+   <properties>
+    <property name="map" value="brightport8"/>
+    <property name="place" value="abandoned"/>
+   </properties>
+  </object>
+  <object name="brightport_gunfrykhide" type="script" x="64" y="160" width="384" height="160">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="brightport_gunfrykwait" type="script" x="32" y="160" width="64" height="128">
+   <properties>
+    <property name="when" value="always"/>
+   </properties>
+  </object>
+  <object name="brightport_gunfrykdead_check" type="script" x="192" y="288" width="128" height="64">
+   <properties>
+    <property name="when" value="always"/>
+   </properties>
+  </object>
+  <object name="chimney" type="mapchange" x="288" y="96" width="32" height="32"/>
+  <object name="crate" type="mapchange" x="64" y="192" width="64" height="64"/>
+  <object name="brightport_caughtoutside" type="script" x="32" y="96" width="448" height="256">
+   <properties>
+    <property name="when" value="always"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <properties>
+   <property name="active" value="false"/>
+  </properties>
+  <object name="guard" type="spawn" x="160" y="160" width="256" height="128">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="quantity" value="2"/>
+    <property name="respawnspeed" value="0"/>
+    <property name="spawngroup" value="brightport_guardfight"/>
+   </properties>
+  </object>
+  <object name="gunfryk" type="spawn" x="224" y="160" width="96" height="64">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="respawnspeed" value="0"/>
+    <property name="spawngroup" value="brightportguardcaptain"/>
+   </properties>
+  </object>
+  <object name="brightport_agent" type="spawn" x="288" y="96" width="192" height="96">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="respawnspeed" value="0"/>
+    <property name="spawngroup" value="brightport_agent"/>
+   </properties>
+  </object>
+  <object name="brightport_guardcrate" type="spawn" x="192" y="288" width="128" height="64">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="brightport_guardcrate"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys">
+  <properties>
+   <property name="active" value="true"/>
+  </properties>
+  <object name="crate1" type="key" x="96" y="256" width="32" height="32">
+   <properties>
+    <property name="phrase" value="brightport_hide_script_crate1"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object name="fireplace" type="key" x="288" y="64" width="32" height="32">
+   <properties>
+    <property name="phrase" value="brightport_hide_script_fireplace"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object name="crate2" type="key" x="96" y="192" width="32" height="32">
+   <properties>
+    <property name="phrase" value="brightport_hide_script_crate2"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object name="crate3" type="key" x="32" y="192" width="32" height="32">
+   <properties>
+    <property name="phrase" value="brightport_hide_script_crate3"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object name="lockedroom" type="key" x="224" y="352" width="32" height="32">
+   <properties>
+    <property name="phrase" value="brightport_cratelockedroom"/>
+    <property name="requireId" value="brightport_nondisplay"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="158"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Replace"/>
+</map>

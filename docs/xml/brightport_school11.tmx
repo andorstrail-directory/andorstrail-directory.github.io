@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="16" height="9" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_33" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_33.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_26" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_26.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_32" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_32.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_29" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_29.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_8" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_8.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_14" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_14.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_13" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_13.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_19" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_19.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_16" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_16.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_28" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_28.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_20" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_20.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_27" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_27.png"/>
+ </tileset>
+ <tileset firstgid="833" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="897" name="map_15" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_15.png"/>
+ </tileset>
+ <layer name="Ground" width="16" height="9">
+  <data encoding="base64" compression="zlib">
+   eJwTYGBgEKAQ5wJxHom4hhGhfwoQ55OIa5H0SzCShweD/lwK9OdBw45c/aBwfEkhBgCZ8yU9
+  </data>
+ </layer>
+ <layer name="Objects" width="16" height="9">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAEbFjEYMCAGZXfzMjA8AiI1Rgh/NlMQP1MmPpA4iC1MDlGNHvUgQIaUDl2qFoQiAayi6BqQPLsWMyGAU2oHAuSmhgguxhIy0DlWaD8GCaEXwvw+BcfgIVFIZn60QHITbZMCLceAeKjQOwEFYPxYTQ0iBgKGfEYSmMAAOH8DxY=
+  </data>
+ </layer>
+ <layer name="Above" width="16" height="9">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAcJDAj2N+ZsKvBJY6unxhQBMTRSOaRqp9S+4nRr4HHv/Swn14AAGxfBaE=
+  </data>
+ </layer>
+ <layer name="Top" width="16" height="9">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF1AJ7mRkYTJgQfHMg24IJIo7Mh9HDAQAAr34DEA==
+  </data>
+ </layer>
+ <layer name="Walkable" width="16" height="9" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzjZGBg4KQCZhhA/QxI+hnQxNDFcdlFDqCWfmx8fG5Gt5sa7icXAwD/gQMi
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="entrance" type="mapchange" x="64" y="32" width="32" height="32">
+   <properties>
+    <property name="map" value="brightport_school4"/>
+    <property name="place" value="basement"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="tiny_rat" type="spawn" x="96" y="224" width="352" height="32">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="brute_origin1"/>
+   </properties>
+  </object>
+  <object name="tiny_rat" type="spawn" x="96" y="128" width="352" height="32">
+   <properties>
+    <property name="spawngroup" value="brute_origin1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys">
+  <object name="stanwick_quest" type="key" x="416" y="192" width="32" height="32">
+   <properties>
+    <property name="phrase" value="brightport_archive"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object name="book1" type="key" x="256" y="96" width="32" height="32">
+   <properties>
+    <property name="phrase" value="brightport_book"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object name="book2" type="key" x="416" y="96" width="32" height="32">
+   <properties>
+    <property name="phrase" value="brightport_book0"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object name="book3" type="key" x="224" y="192" width="32" height="32">
+   <properties>
+    <property name="phrase" value="brightport_book1"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Replace"/>
+</map>

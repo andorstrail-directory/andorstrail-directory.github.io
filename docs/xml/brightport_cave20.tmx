@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="10" height="11" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_29" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_29.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_31" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_31.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_19" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_19.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_10" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_10.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_8" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_8.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_12" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_12.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_15" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_15.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_16" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_16.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_30" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_30.png"/>
+ </tileset>
+ <layer name="Base" width="10" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAPkCVSnQRNXTF8AABDiAA2
+  </data>
+ </layer>
+ <layer name="Ground" width="10" height="11">
+  <data encoding="base64" compression="zlib">
+   eJzzYmBgCCSAfYHYG4ilgFgGB5aDqgFhaSCWRcPNUFoSSZ0EEo6D4tNIYvjUSRBQhw0PBXVhQBwE5QfjiI8AIAYAutIUkQ==
+  </data>
+ </layer>
+ <layer name="Objects" width="10" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAf6DJB6DYsciCxeChbD6guAUgnYlGnA8QbGRH8BKDaI0C8GUlMEol9jRGCnZHE0EEpkpwMDnWHiRCrxGMHLnNhbp3OhN9dyEATiKOxqMcHADGlC7E=
+  </data>
+ </layer>
+ <layer name="Objects_crystaldestroyed" width="10" height="11" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAfkCVCTQITA0MSkN7MiF9dKVBemoAaZBDNRLzaoQAAsCMChQ==
+  </data>
+ </layer>
+ <layer name="Above" width="10" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAeJDCRpu4FI0LsLSNudfHIYnjMI0bdUSzi6GKk+oPe6ogBAJ68CFI=
+  </data>
+ </layer>
+ <layer name="Top" width="10" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBh48IIRwX7LiFudKTOCbcKMW91IAACe8gJH
+  </data>
+ </layer>
+ <layer name="Walkable" width="10" height="11" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzrZGBg6BwgzIDGZsAijk0OGxuXHAMOddjU4HITLoBPHTb3EVKLK2ywYQACSSLK
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="south" type="mapchange" x="64" y="320" width="32" height="32">
+   <properties>
+    <property name="map" value="brightport_cave19"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="room" type="mapchange" x="160" y="288" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="beast" type="spawn" x="160" y="128" width="128" height="96">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="respawnspeed" value="100"/>
+    <property name="spawngroup" value="brightport_beast"/>
+   </properties>
+  </object>
+  <object name="wraith" type="spawn" x="96" y="192" width="64" height="64">
+   <properties>
+    <property name="spawngroup" value="brightport_wraith"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys">
+  <object name="Object" type="key" x="224" y="96" width="32" height="32">
+   <properties>
+    <property name="phrase" value="brightport_crystal0"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Replace">
+  <object name="crystal" type="replace" x="192" y="64" width="96" height="96">
+   <properties>
+    <property name="Objects" value="Objects_crystaldestroyed"/>
+    <property name="requireId" value="brightport_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="125"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="10" height="8" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_29" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_29.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_30" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_30.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_8" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_8.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_20" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_20.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_16" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_16.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_33" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_33.png"/>
+ </tileset>
+ <layer name="Base" width="10" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYKA90KeDHQMFACmkADA=
+  </data>
+ </layer>
+ <layer name="Ground" width="10" height="8">
+  <data encoding="base64" compression="zlib">
+   eJzTZ2Bg0EfCZkBsioRtccgbAbElEjZEU2sMFTcHYickcWsgtkFTp48FG2CxD586IyT7sKmD2YlLHlkNCJsQoQaEARLCD7c=
+  </data>
+ </layer>
+ <layer name="Objects" width="10" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBgcGNkwAsm4hBXAOozY8IU34dm3gkg34kBgrGZCRK3wO8EMKhEMlcayA7BYjcIVKHZbwelQf78imafNCOqGhhQBIp7MSAwAxINAyA/AAB5dQnZ
+  </data>
+ </layer>
+ <layer name="Above" width="10" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAdUGCE0BlMDAyZQJwFxHZ41MUD5ROBOIkJv3kwMJcJu/wJNHXIwIGAPDaQCcRzgHZ5Y5EDAHw/Bu8=
+  </data>
+ </layer>
+ <layer name="Walkable" width="10" height="8" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJw7ycjAcHKIYHRATXXE2I1NHABIyDWp
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="entrance" type="mapchange" x="128" y="224" width="32" height="32">
+   <properties>
+    <property name="map" value="brightport_cave17"/>
+    <property name="place" value="lizard4"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="brightport_lizardpriest" type="spawn" x="128" y="128" width="96" height="32">
+   <properties>
+    <property name="spawngroup" value="brightport_lizardpriest"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+ <objectgroup name="Replace"/>
+</map>

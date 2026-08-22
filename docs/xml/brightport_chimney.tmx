@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="3" height="5" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_32" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_32.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_29" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_29.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_27" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_27.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <layer name="Ground" width="3" height="5">
+  <data encoding="base64" compression="zlib">
+   eJxjZYAAViiGsdmAOBZKswMxB5Rmg7JBNAATnACo
+  </data>
+ </layer>
+ <layer name="Objects" width="3" height="5">
+  <data encoding="base64" compression="zlib">
+   eJzbxwAB0YwMDPuh7JtAfBCI9wJxBFBcGYhPANnqQFqFEaJGA0gDANmGBew=
+  </data>
+ </layer>
+ <layer name="Above" width="3" height="5">
+  <data encoding="base64" compression="zlib">
+   eJw7yMDAEAPEEYwMYBDDgAkOQekbaGwAj6MFBw==
+  </data>
+ </layer>
+ <layer name="Top" width="3" height="5">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBg2MuAAMhsdBDBiMoHAE+fAdQ=
+  </data>
+ </layer>
+ <layer name="Walkable" width="3" height="5">
+  <data encoding="base64" compression="zlib">
+   eJzrZGQAg05GCEZmI2NsagC98QXv
+  </data>
+ </layer>
+ <objectgroup name="Mapevents" visible="0">
+  <object name="chimney" type="mapchange" x="32" y="96" width="32" height="32"/>
+  <object name="brightport_chimney_script" type="script" x="32" y="96" width="32" height="64">
+   <properties>
+    <property name="when" value="always"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="brightportguardcrate1" type="spawn" x="32" y="0" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="brightportguardcrate1"/>
+   </properties>
+  </object>
+  <object name="brightportguardcrate2" type="spawn" x="32" y="32" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="brightportguardcrate2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+ <objectgroup name="Replace"/>
+</map>

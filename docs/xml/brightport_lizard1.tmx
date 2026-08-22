@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="12" height="8" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_33" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_33.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_30" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_30.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_17" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_17.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_16" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_16.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_11" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_11.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <layer name="Ground" width="12" height="8">
+  <data encoding="base64" compression="zlib">
+   eJwTYWBgECERF0FxAQE2TH0xFBcSYMPUixGJyVFfQIL6MqjbiFVfDsSiWDBMHpscAL/2ELM=
+  </data>
+ </layer>
+ <layer name="Objects" width="12" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAekCRCjTiUFmBkYJDCo+4AlJaA0tyMEDqEEVUeBHZC6ddE2A8Cu/DIrWdENRMZ3CbTTHwAAKfgB7E=
+  </data>
+ </layer>
+ <layer name="Above" width="12" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAP5DKSJpeHRz0+ueEOAPYPAbs=
+  </data>
+ </layer>
+ <layer name="Walkable" width="12" height="8" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJw7ycjAcHKQYRBAp2EAWRxZPTa16ABdPS41uNQTaz42/+CSBwAUkDAj
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="entrance" type="mapchange" x="160" y="224" width="64" height="32">
+   <properties>
+    <property name="map" value="brightport_cave17"/>
+    <property name="place" value="lizard1"/>
+   </properties>
+  </object>
+  <object name="brightport_lizardkingcheck" type="script" x="128" y="128" width="128" height="96">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="brightport_slaincheck" type="script" x="32" y="96" width="320" height="128">
+   <properties>
+    <property name="when" value="always"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="brightport_lizardking" type="spawn" x="192" y="96" width="32" height="32">
+   <properties>
+    <property name="respawnspeed" value="0"/>
+    <property name="spawngroup" value="brightport_lizardking"/>
+   </properties>
+  </object>
+  <object name="brightport_lizard3" type="spawn" x="256" y="128" width="64" height="64">
+   <properties>
+    <property name="respawnspeed" value="0"/>
+    <property name="spawngroup" value="brightport_lizard3"/>
+   </properties>
+  </object>
+  <object name="brightport_lizardadvisor" type="spawn" x="128" y="128" width="32" height="32">
+   <properties>
+    <property name="respawnspeed" value="0"/>
+    <property name="spawngroup" value="brightport_lizardadvisor"/>
+   </properties>
+  </object>
+  <object name="brightport_lizard1" type="spawn" x="32" y="160" width="96" height="64">
+   <properties>
+    <property name="respawnspeed" value="0"/>
+    <property name="spawngroup" value="brightport_lizard1"/>
+   </properties>
+  </object>
+  <object name="brightport_lizard00" type="spawn" x="64" y="128" width="256" height="96">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="quantity" value="2"/>
+    <property name="respawnspeed" value="0"/>
+    <property name="spawngroup" value="brightport_lizard00"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+ <objectgroup name="Replace" visible="0"/>
+</map>

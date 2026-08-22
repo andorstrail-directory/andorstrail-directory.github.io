@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="29" height="18" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_11" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_11.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_10" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_10.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_26" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_26.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_14" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_14.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_8" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_8.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_21" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_21.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_25" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_25.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_13" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_13.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="833" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <layer name="Ground" width="29" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYBzFo3gUj+JRPIpH8SjGggFdfAIL
+  </data>
+ </layer>
+ <layer name="Objects" width="29" height="18">
+  <data encoding="base64" compression="zlib">
+   eJx9VUtKA0EQrZ6VjARCMAg5gbhPRIxeQFBBFIRschQP4BxBcJPNnMaVNxFmZxXp57x56cmDYnqqq199e6Y2s8rlLNk/Fr5u/Xnlcu1y51JnO8u2eMdz4nLhcumytMP9t6rnj2WX1zgD3Dv3Q9rzWYEH2LqsXW5dpqSHXSdnLduBP/CT9jzAjfjBGn4CM6rThGxWWcd+Od4A13gqvFxHrNsCJ97nmetLcg9oTXGG7cDFOXd2iEdNgtDm/SXpOH71V9pbFnSzNNQ9+eKZDJAn1y9wUvV14Rg5BsVYrIiNdTwrWqsP9/tpx+U99WcRJ3KL2mCOwc29xR77aWQWGYj9t+r9KuKe8zwjJo27kfM6X1yzqHfM+S73gnvEs8Q9XRdiw115cZtX6X2VubR3O2nwRjj5juIJDuRe4seTY/lOQ586DzqbjPPC943Xpe8O6hH9b9Kw31oHvgN1QVfyxbrOxufsGDCjEevYnQK4lqdZp/2bp/J9xBzhnwI9z+WE9Kgjasbf4fC5siG0l4tsv5H9esSeEb3mOexsmCffCf3uKfS/oj3UswvJM6A1CSB/5ZlmjrD9A3TaR2Y=
+  </data>
+ </layer>
+ <layer name="Above" width="29" height="18">
+  <data encoding="base64" compression="zlib">
+   eJzFVckNwjAQTDZ0gHjyCOUgUQyKgJLSJt6HyTDaw0aRmI/jvS9vZBo+OJbvE9yv4zDcxu1+KDyZthMxl/uFaCiHupb9M+l6+pYfS55pTGegXctv5kexkoyCa5rF7NlWLBKmYPIj+625Ie1efDzkm6eI+pLF1BJrprsHODfEapP/Dp6vqD7YI5wVzHsOavssMi/qvfpSW3v0xes/2q8nxxKhdTa9fZXtnSgH5kU62dv8Fdmbaq2lpevtJG/v9eyJHni17QHnkvVSgnnp6V/072Q79X3WWK19LCTj+VsMPeZV+hs1cxS9
+  </data>
+ </layer>
+ <layer name="Walkable" width="29" height="18" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJytlVEKACEIRINO5/0v1P4shDjOaAp95Do+jdxsr2Xfuu3f2+4tRXuzlL33R7Hex3hIy2pWa0AaVqvaq+/B56pyUSzrIcuPeFk806h9MgarlWkn7OXsJ9hdHTuz6Js6hwpLnTFmSv4OT42d4HXuUMSYvOdTM4W0amyFldVQ8b/kVmYpezOi/2SWC+X3jAOTyjc5
+  </data>
+ </layer>
+ <objectgroup name="Mapevents" visible="0">
+  <object name="south" type="mapchange" x="288" y="544" width="224" height="32">
+   <properties>
+    <property name="map" value="waytobrightport23"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="south1" type="mapchange" x="608" y="544" width="64" height="32">
+   <properties>
+    <property name="map" value="waytobrightport23"/>
+    <property name="place" value="north1"/>
+   </properties>
+  </object>
+  <object name="south2" type="mapchange" x="832" y="544" width="32" height="32">
+   <properties>
+    <property name="map" value="waytobrightport23"/>
+    <property name="place" value="north2"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" x="0" y="64" width="32" height="480">
+   <properties>
+    <property name="map" value="waytobrightport21"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="east" type="mapchange" x="896" y="320" width="32" height="160">
+   <properties>
+    <property name="map" value="brightportwild18"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="north" type="mapchange" x="96" y="0" width="128" height="32">
+   <properties>
+    <property name="map" value="waterway_forest2"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn" visible="0">
+  <object name="fawn" type="spawn" x="64" y="192" width="256" height="160">
+   <properties>
+    <property name="spawngroup" value="irdegh_spawn"/>
+   </properties>
+  </object>
+  <object name="fawn2" type="spawn" x="352" y="192" width="128" height="96">
+   <properties>
+    <property name="spawngroup" value="erumen_2"/>
+   </properties>
+  </object>
+  <object name="fawn3" type="spawn" x="320" y="352" width="288" height="160">
+   <properties>
+    <property name="spawngroup" value="irdegh_spawn"/>
+   </properties>
+  </object>
+  <object name="virilefawn" type="spawn" x="608" y="192" width="256" height="288">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="brightport_fawn"/>
+   </properties>
+  </object>
+  <object name="fawn4" type="spawn" x="64" y="384" width="224" height="128">
+   <properties>
+    <property name="spawngroup" value="brightport_sickfawn"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys" visible="0"/>
+ <objectgroup name="Replace"/>
+</map>

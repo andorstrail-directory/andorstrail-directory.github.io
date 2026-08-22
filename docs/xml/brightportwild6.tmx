@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="16" height="4" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_25" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_25.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_36" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_36.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_8" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_8.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_30" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_30.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_35" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_35.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_10" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_10.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_29" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_29.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <layer name="Ground" width="16" height="4">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYBzBGAAhgABB
+  </data>
+ </layer>
+ <layer name="Objects" width="16" height="4">
+  <data encoding="base64" compression="zlib">
+   eJyLZmBgiAdiLiBmAuJmRgTbBohtgdgaTRzELgMxoHwQqGRkgAN5JLVXkdgyTAg1XEh6bzOgAlMsZpoDsSWSPhjdA2IjqbuFxEa3B10vCAAAc24I8w==
+  </data>
+ </layer>
+ <layer name="Above" width="16" height="4">
+  <data encoding="base64" compression="zlib">
+   eJxrYmLAClqA4k1MmGxs8qQAmD4Y3YsktxDIX4THHnS9IMDFCFXIzMCQCaSykNTNYESYUwTEJVjMBACrGw8d
+  </data>
+ </layer>
+ <layer name="Walkable" width="16" height="4" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzjZGZg4KQQYwPIcqTqxWceqe4hpBYAG6gCHQ==
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="west1" type="mapchange" x="0" y="64" width="32" height="32">
+   <properties>
+    <property name="map" value="brightportwild4"/>
+    <property name="place" value="east1"/>
+   </properties>
+  </object>
+  <object name="cave" type="mapchange" x="160" y="32" width="32" height="32">
+   <properties>
+    <property name="map" value="brightport_cave2"/>
+    <property name="place" value="entrance"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn" visible="0">
+  <object name="elderdeer1" type="spawn" x="64" y="32" width="64" height="64">
+   <properties>
+    <property name="spawngroup" value="brightport_elderdeer"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys"/>
+ <objectgroup name="Replace"/>
+</map>

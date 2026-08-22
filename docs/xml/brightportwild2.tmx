@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="12" height="25" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_2.png"/>
+ </tileset>
+ <tileset firstgid="65" name="map_29" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_29.png"/>
+ </tileset>
+ <tileset firstgid="129" name="map_0" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_0.png"/>
+ </tileset>
+ <tileset firstgid="193" name="map_30" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_30.png"/>
+ </tileset>
+ <tileset firstgid="257" name="map_21" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_21.png"/>
+ </tileset>
+ <tileset firstgid="321" name="map_5" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_5.png"/>
+ </tileset>
+ <tileset firstgid="385" name="map_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_1.png"/>
+ </tileset>
+ <tileset firstgid="449" name="map_26" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_26.png"/>
+ </tileset>
+ <tileset firstgid="513" name="map_10" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_10.png"/>
+ </tileset>
+ <tileset firstgid="577" name="map_4" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_4.png"/>
+ </tileset>
+ <tileset firstgid="641" name="map_8" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_8.png"/>
+ </tileset>
+ <tileset firstgid="705" name="map_25" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_25.png"/>
+ </tileset>
+ <tileset firstgid="769" name="map_7" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_7.png"/>
+ </tileset>
+ <tileset firstgid="833" name="map_13" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_13.png"/>
+ </tileset>
+ <tileset firstgid="897" name="map_6" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_6.png"/>
+ </tileset>
+ <tileset firstgid="961" name="map_20" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_20.png"/>
+ </tileset>
+ <tileset firstgid="1025" name="map_9" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_9.png"/>
+ </tileset>
+ <tileset firstgid="1089" name="map_22" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_22.png"/>
+ </tileset>
+ <tileset firstgid="1153" name="map_35" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_35.png"/>
+ </tileset>
+ <tileset firstgid="1217" name="map_14" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_14.png"/>
+ </tileset>
+ <tileset firstgid="1281" name="map_23" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_23.png"/>
+ </tileset>
+ <tileset firstgid="1345" name="map_11" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_11.png"/>
+ </tileset>
+ <tileset firstgid="1409" name="map_3" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_3.png"/>
+ </tileset>
+ <layer name="Base" width="12" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFyIBxkJpFqn3E2s2IRqODfPKdgwEaaWg2CBwiQS0pdlPbnaOAfAAAJZYDBg==
+  </data>
+ </layer>
+ <layer name="Ground" width="12" height="25">
+  <data encoding="base64" compression="zlib">
+   eJzlktENAiEMhtsXF3ETFwIMXEKUGDdxA3dwB/exxDbXcD2Oi48+/Llw/X76F0AAwD9SIcVOHZp1ICXSeXB/x/Kkxw4+qGz3AV57HPtO2OfFk1Qv8RxX+NtGvmh41vK9ca7V9QGXHs/fiXPq2mT08Py/3k/Cr0fPl41MlX2RrlzPzT23PZ6cs6i5L+wrBq/V3offyYeNHtYbCSwH83nEDq/nkZnkPEbevLB5kP9FHw+MQYc=
+  </data>
+ </layer>
+ <layer name="Objects" width="12" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxtUz1LA1EQ3HeezQUxhYXYpLARO4soglqk8B9oYSpLFUGLgJUnpNMqjWkEzR8Qf0MkjSKCYMR/oWAtzvje+vbOG1j2PnZmZ/fd1UQkQySImniMEMupyOqE/OEJBS+JFHCO93sOtcXHMgiZGqRQZwH5Annf+Xczie+jYM3upMhcqUcV1O8rtB5K3uiFGlPIa4j1wNkIfogT9OqCe5QU9frhnnwHL21X7EvOCr2yN2rGiKbhM+eIIXuI99YIMR9mfKNO6v0R1xXzsU/Lec6s4WcS/efh2nrsuthnjLyEfGD2mcfLXw3lNMwMZ4he4NRD7TBk3R/nagWe3pP3Hngj00t1qclePeOH95JGj1X+NpOocS+xlu951tyjntupxHMhLpFvxJ9FGR33/3wVzdLOyD82uxia2irtO+d55PAs6hK/C8UO5t5CbKfFXorMXF/Bzzd0bpEPDW8gcTdVGh3EZ9B/tPMhngNpOo2cfhpnVNh/m//wovid6zxaqxr6H1hP7KFnlJS4WYnDb+cDs36Zb8niBxqrS2M=
+  </data>
+ </layer>
+ <layer name="Objects_apples" width="12" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFAwnmA/FERuLVcwLVVjATrz6biYGhgYlkZ4HtESBBfQMQLwDqmUOCX+gN6kkIB04S/UFOGI8C0gEAEg0Fiw==
+  </data>
+ </layer>
+ <layer name="Objects_applecrate" width="12" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4A6YCIjA8McxoF2xSgYzgAA1rQBMA==
+  </data>
+ </layer>
+ <layer name="Above" width="12" height="25">
+  <data encoding="base64" compression="zlib">
+   eJylU0sKwkAMnY7WhfQkHqCH8QKCe7elaG8gopsu9CwFoVsFP+jedS26NcM0mGYyUvBBmF/y5k0yiXuqMyKt1Dy08yWMq7B9XjD/CTsfeXiz0PLWgV1XcE+tXb8t+OwIZ9T4pB6+nN0/Dr5zHvMCrrdux2csHvnwHLHpu1oTsLW29wzB8DknsAvYTbn8qLEk+s5gV7B7s54KeaFvOoAdBY0SIu3mQQKtK/KauFrI5yDwaywFDsmX1o3WJYY872F8eHTS+nJdHIln32Am8PyLLvXgfjQ1Rm9JLGVxzx//ArFg75J6mAP7gGvPPfu0d8xI/47pg4L5UV8cq+YtWHvzT7GHPv1kQc4=
+  </data>
+ </layer>
+ <layer name="Top" width="12" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BgAA/TQLtgZIFTA+0AKgAAvi4A2Q==
+  </data>
+ </layer>
+ <layer name="Walkable_apples" width="12" height="25" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFAw06GQfaBSMDjIbz0AcAriwBFQ==
+  </data>
+ </layer>
+ <layer name="Walkable" width="12" height="25" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJy1UkEOACAIsuf76y51cUJi041DyUQcvsz84FZ8K3+o70BHmRd5EXEu0kd+GRf1GL+yH/OU+X7doOqzwp/W6d7xx9MEPys0h5WaSaajZFDNgnqXTh4QNrFJcKs=
+  </data>
+ </layer>
+ <objectgroup name="Mapevents" visible="0">
+  <object name="east" type="mapchange" x="352" y="608" width="32" height="64">
+   <properties>
+    <property name="map" value="brightportwild3"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="north3" type="mapchange" x="224" y="0" width="96" height="32">
+   <properties>
+    <property name="map" value="waytobrightport13"/>
+    <property name="place" value="south3"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" x="0" y="256" width="32" height="512">
+   <properties>
+    <property name="map" value="brightportwild1"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="north" type="mapchange" x="96" y="0" width="64" height="32">
+   <properties>
+    <property name="map" value="waytobrightport13"/>
+    <property name="place" value="south1"/>
+   </properties>
+  </object>
+  <object name="west1" type="mapchange" x="0" y="32" width="32" height="32">
+   <properties>
+    <property name="map" value="brightportwild1"/>
+    <property name="place" value="east1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn" visible="0">
+  <object name="duleian_mountain_cat_cub" type="spawn" x="160" y="416" width="96" height="64">
+   <properties>
+    <property name="spawngroup" value="brightport_cat"/>
+   </properties>
+  </object>
+  <object name="duleian_mountain_cat" type="spawn" x="64" y="640" width="96" height="128">
+   <properties>
+    <property name="spawngroup" value="duleian_mountain_cat"/>
+   </properties>
+  </object>
+  <object name="duleian_mountain_cat1" type="spawn" x="192" y="480" width="128" height="128">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="duleian_mountain_cat"/>
+   </properties>
+  </object>
+  <object name="1duleian_mountain_cat_cub" type="spawn" x="64" y="320" width="96" height="96">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="brightport_cat"/>
+   </properties>
+  </object>
+  <object name="virile deer" type="spawn" x="64" y="64" width="288" height="256">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="brightport_deer"/>
+   </properties>
+  </object>
+  <object name="squirmer" type="spawn" x="64" y="64" width="288" height="256">
+   <properties>
+    <property name="spawngroup" value="brightport_squirrel"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys" visible="0">
+  <object name="apples" type="key" x="96" y="384" width="32" height="32">
+   <properties>
+    <property name="phrase" value="brightport_apples"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Replace">
+  <object name="apples1" type="replace" x="192" y="480" width="64" height="64">
+   <properties>
+    <property name="Objects" value="Objects_apples"/>
+    <property name="requireId" value="brightport_bakery"/>
+    <property name="requireNegation" value="false"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="25"/>
+   </properties>
+  </object>
+  <object name="apple_crate_taken" type="replace" x="96" y="384" width="64" height="32">
+   <properties>
+    <property name="Objects" value="Objects_applecrate"/>
+    <property name="requireId" value="brightport_nondisplay"/>
+    <property name="requireNegation" value="false"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="197"/>
+   </properties>
+  </object>
+  <object name="apples2" type="replace" x="64" y="352" width="96" height="64">
+   <properties>
+    <property name="Objects" value="Objects_apples"/>
+    <property name="requireId" value="brightport_nondisplay"/>
+    <property name="requireNegation" value="false"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="213"/>
+   </properties>
+  </object>
+  <object name="apples3" type="replace" x="0" y="256" width="64" height="96">
+   <properties>
+    <property name="Objects" value="Objects_apples"/>
+    <property name="requireId" value="brightport_bakery"/>
+    <property name="requireNegation" value="false"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="25"/>
+   </properties>
+  </object>
+  <object name="walkableapples" type="replace" x="32" y="256" width="32" height="32">
+   <properties>
+    <property name="Walkable" value="Walkable_apples"/>
+    <property name="requireId" value="brightport_bakery"/>
+    <property name="requireNegation" value="false"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="25"/>
+   </properties>
+  </object>
+  <object name="walkableapples2" type="replace" x="224" y="480" width="32" height="32">
+   <properties>
+    <property name="Walkable" value="Walkable_apples"/>
+    <property name="requireId" value="brightport_bakery"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="25"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
